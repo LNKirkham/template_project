@@ -15,6 +15,8 @@
 # 	    Louise Kirkham: louisek@gmail.com
 
 import unittest
+from pandas.util.testing import assert_frame_equal
+from template_module.src import examplescript
 
 
 class MyTestCase(unittest.TestCase):
